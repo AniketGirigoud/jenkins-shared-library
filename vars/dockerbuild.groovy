@@ -1,3 +1,3 @@
-def call (string projectname, string imagetag) {
+def call (projectname, imagetag) {
  sh "docker build -t ${projectname}:${imagetag} ."
 }
