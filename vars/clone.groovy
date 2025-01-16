@@ -1,4 +1,4 @@
-def call (url, branch) {
- git url: "url", branch:"branch"
+def call(url, branch) {
+ git url: "url", branch: "branch"
   
 }
